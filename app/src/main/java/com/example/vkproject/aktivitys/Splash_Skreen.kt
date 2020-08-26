@@ -1,0 +1,34 @@
+
+package com.example.vkproject.aktivitys
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
+import com.example.vkproject.R
+import io.realm.Realm
+import kotlinx.android.synthetic.main.activity_splash__skreen.*
+
+class Splash_Skreen : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_splash__skreen)
+
+        val anim: Animation = AnimationUtils.loadAnimation(this, R.anim.logo_anim)
+        imageView.startAnimation(anim)
+        anim.setAnimationListener(object : Animation.AnimationListener {
+            override fun onAnimationRepeat(animation: Animation?) {
+            }
+
+            override fun onAnimationEnd(animation: Animation?) {
+                val intent = Intent(this@Splash_Skreen, MainActivity::class.java)
+                startActivity(intent)
+                finish()
+            }
+
+            override fun onAnimationStart(animation: Animation?) {
+            }
+        })
+    }
+}

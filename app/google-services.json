@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "94255884430",
+    "firebase_url": "https://vkproject-f3044.firebaseio.com",
+    "project_id": "vkproject-f3044",
+    "storage_bucket": "vkproject-f3044.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94255884430:android:7f05d28beee4f7c503c1df",
+        "android_client_info": {
+          "package_name": "com.example.vkproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94255884430-v1af1gcgn52bjv4i0o865gekl00ejc4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnzmz0cBuGvurOZc-CKN3VSzTZ5ogcAEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94255884430-v1af1gcgn52bjv4i0o865gekl00ejc4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
